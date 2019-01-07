@@ -32,6 +32,7 @@ class App extends Component {
   render(){ 
     return(
       <div>
+        
           <Header/>
           <Content title="Course React" name="Kongruksiam Studio" price="Free" />
           <Footer/>
