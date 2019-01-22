@@ -32,15 +32,10 @@ class App extends Component {
   render(){ 
     return(
       <div>
-          <Header/>
-          <Content title="Course React" name="Kongruksiam Studio" price="Free" />
-          <Footer/>
-          <h1>{this.state.message}</h1>
-          <button onClick={this.changeMessage}>{this.state.message}</button> <br/>
-          <h1>{this.state.data}</h1>
-          <button onClick={this.insertData}>insert</button> <br/> <br/>
-          <input type="text" onChange={this.onChange.bind(this)}/>
-          <h1>Welcome: {this.state.type}</h1>
+            <h1>React</h1>
+            <a href="/header">header</a> <br/>
+            <a href="/content">content</a> <br/>
+            <a href="/footer">footer</a>
      </div>
     );
   }
